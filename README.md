@@ -28,4 +28,4 @@ To test the app on a laptop we need to
 
 The end result will look something like this
 
-![1000 users landed on www.example.com. Of those, 514 went on to www.example.com/a, etc](example-uja.svg)
+![1000 users landed on www.example.com. Of those, 514 went on to www.example.com/a, etc](example-uja.png)
