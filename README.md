@@ -1,11 +1,12 @@
 ### User Journey Analysis
 
-Parse web logs and identify user journeys on Hadoop.
+##### Parse web logs and identify user journeys on Hadoop.
 
 Given a log where each entry contains
 * a timestamp,
 * a url,
 * a user identifier,
+
 this app will analyse the user journeys and construct the graph of all journeys.
 
 The result is two files
@@ -26,6 +27,5 @@ To test the app on a laptop we need to
     * `./src/main/resources/generate_graph.sh`
 * open target/uja.svg in your favorite browser
 
-The end result will look something like this
-
+The end result will look something like this. 
 ![1000 users landed on www.example.com. Of those, 514 went on to www.example.com/a, etc](example-uja.png)
