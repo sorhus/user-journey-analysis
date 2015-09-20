@@ -2,7 +2,7 @@ package com.github.sorhus.uja
 
 import scala.annotation.tailrec
 
-class SessionFactory extends (Iterator[PageView] => Iterator[Session]) {
+class SessionFactory extends (Iterator[PageView] => Iterator[Session]) with Serializable {
 
   // naive sessions for now
   def apply(pageviews: Iterator[PageView]): Iterator[Session] = {

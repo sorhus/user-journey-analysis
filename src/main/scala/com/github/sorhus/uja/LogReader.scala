@@ -1,6 +1,6 @@
 package com.github.sorhus.uja
 
-trait LogReader extends (String => PageView)
+trait LogReader extends (String => PageView) with Serializable
 
 class SimpleLogReader(separator: String, identifier: Int, url: Int, timestamp: Int) extends LogReader {
   def apply(line: String): PageView = {

@@ -2,7 +2,7 @@ package com.github.sorhus.uja
 
 import scala.annotation.tailrec
 
-class EdgeFactory extends (Session => Edges) {
+class EdgeFactory extends (Session => Edges) with Serializable {
 
   def apply(session: Session) = recurse(session.reverse, Nil)
 

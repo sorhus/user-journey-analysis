@@ -1,5 +1,6 @@
-package com.github.sorhus.uja
+package com.github.sorhus.uja.scalding
 
+import com.github.sorhus.uja._
 import com.twitter.scalding._
 
 // Output:
